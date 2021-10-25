@@ -1,5 +1,5 @@
 const fs = require("fs");
-const fileName = "library.json";
+const fileName = "todo.json";
 
 const op = process.argv[2];
 const name = process.argv[3];
