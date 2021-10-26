@@ -1,0 +1,31 @@
+GET http://localhost:8080/comments
+
+###
+
+GET http://localhost:8080/comments/1
+
+###
+
+POST http://localhost:8080/comments
+Content-Type: application/json
+
+{
+    "name" : "message1",
+    "email" : "a@gmail.com",
+    "message" : "Hello"
+}
+
+###
+
+DELETE http://localhost:8080/comments/0
+
+###
+
+PATCH http://localhost:8080/comments/2
+Content-Type: application/json
+
+{
+    "name" : "new comment",
+    "email" : "we@gmail.com",
+    "message" : "new message"
+}
