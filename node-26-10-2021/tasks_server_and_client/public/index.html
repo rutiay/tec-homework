@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <form id="addTaskForm">
+      <input type="text" name="name" id="taskName" placeholder="Enter new task" />
+      <input type="submit" value="Add task" />
+    </form>
+    <form id="searchTaskForm">
+      <input type="number" name="taskId" id="taskId" placeholder="Enter Id number" min="0">
+      <input type="submit" value="Search task">
+    </form>
+    <form id="deleteTaskForm">
+      <input type="number" name="deleteId" id="deleteId" placeholder="Enter Id number" min="0">
+      <input type="submit" value="Delete task">
+    </form>
+    <button onclick="getTasks()">Get tasks</button>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
