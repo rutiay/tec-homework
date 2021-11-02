@@ -1,0 +1,30 @@
+GET http://localhost:8080/todos
+
+###
+
+GET http://localhost:8080/todos/3
+
+###
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+    "userId": 4,
+    "title": "task4",
+    "completed": false
+}
+
+###
+
+DELETE http://localhost:8080/todos/0
+
+###
+PATCH http://localhost:8080/todos/3
+Content-Type: application/json
+
+{
+    "userId": "",
+    "title": "",
+    "completed": true
+}
