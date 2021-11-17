@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Student {
+        constructor(name, age, gender) {
+          this.name = name;
+          this.age = age;
+          this.gender = gender;
+        }
+        write() {
+          console.log(this.name, this.age, this.gender);
+        }
+        isYoung() {
+          if (this.age < 18) {
+            return true;
+          }
+          return false;
+        }
+      }
+
+      const student1 = new Student("ruti", 12, "female");
+      const student2 = new Student("ruti", 28, "female");
+      console.log(student1.isYoung());
+      console.log(student2.isYoung());
+    </script>
+  </body>
+</html>
