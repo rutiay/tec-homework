@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="app"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+
+    <script type="text/babel">
+        const element = document.getElementById("app");
+
+        function Video(props){
+            return <video controls src={props.link}></video>
+        }
+
+        ReactDOM.render(<div>
+            <Video link="https://player.vimeo.com/external/323496013.sd.mp4?s=934f61a0432ace6bcec62423e8a4282a4afb82ed&profile_id=164"/>
+            <Video link="https://player.vimeo.com/external/521707474.hd.mp4?s=98c57d8ee2f46544e481fb54aa2b1ee767fbd97d&profile_id=174"/>
+            <Video link="https://player.vimeo.com/external/543910236.hd.mp4?s=cad2a678b023d9c54e032e66f1fc9e85787e034e&profile_id=174"/>
+        </div>, element)
+
+    </script>
+</body>
+</html>

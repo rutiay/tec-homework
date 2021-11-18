@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="app"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+
+    <script type="text/babel">
+        const element = document.getElementById("app");
+
+        function Image(props){
+            return <img src={props.link}></img>
+        }
+
+        ReactDOM.render(<div>
+            <Image link="https://cdn.pixabay.com/photo/2018/02/21/03/15/bmw-m4-3169357__340.jpg"/>
+            <Image link="https://cdn.pixabay.com/photo/2021/11/11/13/08/leopard-6786267__340.jpg"/>
+            <Image link="https://cdn.pixabay.com/photo/2021/11/11/13/07/sparkling-wine-6786251__340.jpg"/>
+        </div>, element)
+
+    </script>
+</body>
+</html>

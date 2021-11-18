@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="app"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+
+    <script type="text/babel">
+        const element = document.getElementById("app");
+
+        function NameAndAge(props){
+            return <h1>{props.name} {props.age}</h1>
+        }
+
+        ReactDOM.render(<div>
+            <NameAndAge name="Ruti" age={28}/>
+            <NameAndAge name="abc" age={23}/>
+            <NameAndAge name="def" age={11}/>
+            <NameAndAge name="ghi" age={44}/>
+            <NameAndAge name="jkl" age={89}/>
+            <NameAndAge name="mno" age={12}/>
+            <NameAndAge name="opq" age={65}/>
+            <NameAndAge name="rst" age={900}/>
+            <NameAndAge name="uvw" age={38}/>
+            <NameAndAge name="xyz" age={67}/>
+        </div>, element)
+
+    </script>
+</body>
+</html>
