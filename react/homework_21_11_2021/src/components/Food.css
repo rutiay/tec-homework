@@ -1,0 +1,15 @@
+.div2{
+    width: 33%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div2 div{
+    width: 70%;
+}
+
+.img2{
+    width: 95%;
+    height: 200px;
+}

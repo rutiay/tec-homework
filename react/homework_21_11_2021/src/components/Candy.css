@@ -1,0 +1,19 @@
+.category{
+    width: 33%;
+    height: 300px;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img{
+    margin-left: -75%;
+    margin-top: 5%;
+    width: 60px;
+    height: 60px;
+}
+
+.para{
+    width: 80%;
+}

@@ -1,0 +1,17 @@
+.div3{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.div3 div{
+    width: 90%;
+    background: gainsboro;
+}
+
+.img3{
+    width: 90%;
+    height: 300px;
+}
