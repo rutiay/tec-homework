@@ -1,0 +1,40 @@
+.GetWeather{
+    margin-top: 15%;
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2021/08/17/14/48/sea-6553205_960_720.jpg");
+    width: 70%;
+    height: 100vh;
+    margin-left: 15%;
+}
+
+.GetWeather h1{
+    font-size: 50px;
+}
+
+.GetWeather p{
+    font-size: 20px;
+}
+
+.GetWeather input{
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.GetWeather button{
+    font-size: 20px;
+    width: 12%;
+    padding: 10px 15px;
+    background: #0071e3;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+.GetWeather p:last-child{
+    width: 52%;
+    padding: 20px 0px;
+    border-radius: 15px;
+    margin-left: 24%;
+}
