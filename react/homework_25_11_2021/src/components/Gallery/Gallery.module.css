@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-top: 2%;
+    height: 85vh;
+    justify-content: space-evenly;
+}
+
+.card input{
+    position: absolute;
+    width: 4%;
+    height: 7vh;
+    opacity: 0.5;
+    transition: 0.7s;
+    top: 30%;
+}
+
+.card input:nth-child(2){
+    left: 5%;
+}
+
+.card input:nth-child(3){
+    left: 86%;
+}
+
+.card input:hover{
+    opacity: 1;
+}
+
+.card img:first-child{
+    width: 90%;
+    height: 70%;
+    margin-bottom: 1%;
+}
+
+.card img{
+    width: 26.7%;
+    height: 30vh;
+}

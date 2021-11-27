@@ -15,8 +15,8 @@ class GetWeather extends Component {
       )
       .then((response) => {
         this.setState({
-          data: `The current temperature is: ${response.data.main.temp}.
-          The highest temperature is: ${response.data.main.temp_max}, and the lowest is: ${response.data.main.temp_min}`,
+          data: `The current temperature is: ${(response.data.main.temp - 273.15).toFixed()}°C.
+          The highest temperature is: ${(response.data.main.temp_max - 273.15).toFixed()}°C, and the lowest is: ${(response.data.main.temp_min - 273.15).toFixed()}°C`,
           styleColor: "green",
           styleBackgruond: "#c2f6c2",
         });
