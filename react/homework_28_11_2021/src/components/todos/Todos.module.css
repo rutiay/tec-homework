@@ -1,0 +1,52 @@
+.task{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.task h1{
+    text-align: center;
+}
+
+.task div:first-child{
+    margin-top: 2%;
+    border: 1px solid black;
+    height: 20vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.task div input:first-child{
+    width: 90%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.task div:first-child button{
+    width: 90%;
+    background: blue;
+    color: white;
+    height: 5vh;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.task div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.task div h2{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.task div input{
+    width: 5%;
+    height: 5vh;
+}

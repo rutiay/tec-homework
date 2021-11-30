@@ -9,8 +9,8 @@ class Gallery extends Component {
       "https://cdn.pixabay.com/photo/2016/10/21/09/25/rocks-1757593__340.jpg",
     ],
     index: 0,
-    previous: false,
-    next: false
+    previous: 0,
+    next: 0
   };
 
   changePicture = (event) => {

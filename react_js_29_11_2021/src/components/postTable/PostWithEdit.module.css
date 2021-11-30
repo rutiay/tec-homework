@@ -1,0 +1,29 @@
+.container form input{
+    width: 60%;
+}
+
+.container table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.container table tr, th, td{
+    border: 1px solid black;
+    height: 10vh;
+}
+
+.container table tr input{
+    width: 50%;
+}
+
+.container table tr th:nth-child(2){
+    width: 7%;
+}
+
+.container table tr th:nth-child(5){
+    width: 5%;
+}
+
+.container table tr th:last-child{
+    width: 5%;
+}
