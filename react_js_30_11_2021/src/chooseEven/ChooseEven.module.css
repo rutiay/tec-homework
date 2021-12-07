@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+}
+
+.container div{
+    margin-left: 27%;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+.container div button{
+    width: 6vw;
+    height: 9vh;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
