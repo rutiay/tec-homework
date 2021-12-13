@@ -1,0 +1,22 @@
+.footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer div{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.footer div img{
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

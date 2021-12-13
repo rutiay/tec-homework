@@ -18,7 +18,7 @@ class ChooseEven extends Component {
     if (prevState.isStartClicked !== this.state.isStartClicked) {
       const temp = [...this.state.numbers];
       for (let index = 0; index < 10; index++) {
-        temp[index] = Math.floor(Math.random() * 20 + 1);
+        temp[index] =  Math.floor(Math.random() * 20 + 1);
         if (temp[index] % 2 === 0) {
           this.evenNumberCounter++;
         }
@@ -31,6 +31,7 @@ class ChooseEven extends Component {
       } else {
         this.setState({
           message: "Game not started, Please press the start button.",
+          isStartClicked: false
         });
       }
     }
@@ -66,7 +67,7 @@ class ChooseEven extends Component {
 
   render() {
     return (
-      <div className={styles.container}>
+      <div className={styles.container}> 
         <button onClick={this.startGame}>Start</button>
         <p>Timer: {this.state.time}</p>
         <div>
