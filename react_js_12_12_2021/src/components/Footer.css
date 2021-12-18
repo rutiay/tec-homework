@@ -1,6 +1,6 @@
 .footer {
-    position: absolute;
-    bottom: 0%;
+    /* position: absolute; */
+    /* bottom: 0%; */
     width: 100%;
     background: black;
     display: flex;
@@ -16,7 +16,7 @@
 
 .footer div img{
     padding: 20px;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
